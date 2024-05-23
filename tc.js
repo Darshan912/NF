@@ -9,10 +9,13 @@ Clock.addEventListener("click", function () {
    var t = et-st;
    var deci = (Math.round(t * 100) / 100).toFixed(2);
    var la = document.getElementById("totaltvalue");
-   la.innerHTML= t;
+   la.innerHTML= deci;
    console.log(t)
+   console.log(deci)
+
 //    console.log(total)
 //    total.textContent = t;
+      console.log("hi")
 }) 
 
 var Diff = document.getElementById("submit");
