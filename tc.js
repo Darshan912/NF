@@ -7,6 +7,7 @@ Clock.addEventListener("click", function () {
 //    var total = document.getElementById("total"); 
 //    console.dir(total)  
    var t = et-st;
+   var deci = (Math.round(t * 100) / 100).toFixed(2);
    var la = document.getElementById("totaltvalue");
    la.innerHTML= t;
    console.log(t)
