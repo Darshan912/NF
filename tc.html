@@ -8,13 +8,22 @@
 <body>
     <h1>Time Covertor</h1>
 
-    <label for="ST" class="class-header">Start Time</label>
+    <!-- <label for="ST" class="class-header">Start Time</label>
     <input type="text" id="st" name="st"><br><br>
 
     <label for="ET" class="class-header">End Time</label>
-    <input type="text" id="et" name="et"><br><br>
+    <input type="text" id="et" name="et"><br><br> -->
 
-    <input type="submit" id="sub" value="Submit"><br><br>
+    <label for="appt">Start time:</label>
+    <input type="time" id="appt" name="appt"><br><br>
+    <label for="appt">End time:</label>
+    <input type="time" id="ap" name="appt"><br><br>
+        
+    <input type="submit" id="subm"><br><br>
+ 
+    <div id="output"></div>
+
+    <!-- <input type="submit" id="sub" value="Submit"><br><br> -->
 
     <!-- <label for="Total" class="class-header">Total</label>
     <input type="text" id="total" name="total"><br><br> -->
@@ -25,7 +34,9 @@
     <input type="text" id="fname" name="fname"><br><br>
       <input type="submit" id="submit" value="Submit">
     <p>Value: <span id="outputvalue"></span></p>
-    <!-- <div id="div"></div> -->
+    <!-- <div id="div"></div> -->    
+     
     <script src="tc.js"></script>
 </body>
 </html>
+
