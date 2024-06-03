@@ -20,9 +20,11 @@ let Ans = pc/C*100;
 let Deci = (Math.round(Ans * 100) / 100).toFixed(2);
 outputvalue.innerHTML = Deci;
     console.log("hi");
-    console.log(A);
-    console.log(B);
-    console.log(C);
+    console.log("A = " + A);
+    console.log("B = "+ B);
+    console.log("C = "+ C);
+    console.log("D = "+ pc);
+
     console.log(Ans);
 
 })
