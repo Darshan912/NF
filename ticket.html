@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Label and Input Inline</title>
+<style>
+    label, input {
+        display: inline-block;
+        margin: 5px;
+    }
+</style>
+<body>
+    <h2 id="t">Ticket Close</h2>
+    <label class="label" for="bulk">Bulk Mix</label>
+    <input id="bulk" type="text"><br><br>
+    <label class="label" for="Avarge">Avarge</label>
+    <input id="Avarge" type="text"><br><br>
+    <label for="fw">Fill Weight</label>
+    <input id="fw" type="text"><br><br>
+    <label for="pc">Produce Caps</label>
+    <input id="pc" type="text"><br><br>
+     <button id="submit">Submit</button>
+    <script src="ticket.js"></script>
+    <p>Value: <span id="outputvalue"></span></p>
+</body>
+</html>
