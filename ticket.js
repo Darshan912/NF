@@ -1,8 +1,8 @@
 var t = document.getElementById("t");
-console.log(t);
+//console.log(t);
 t.addEventListener("onmouseover",function(){
  window.alert("Hi");
- console.log("hi");
+// console.log("hi");
 })
 
 const submit  = document.getElementById('submit');
@@ -24,7 +24,6 @@ outputvalue.innerHTML = Deci;
     console.log("B = "+ B);
     console.log("C = "+ C);
     console.log("D = "+ pc);
-
     console.log(Ans);
 
 })
