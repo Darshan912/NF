@@ -12,4 +12,7 @@ const Ticket = document.getElementById("ticket");
 Ticket.onclick = function(){
     window.open('ticket.html');
 }
-
+const bw = document.getElementById("bw");
+bw.onclick = function(){
+    window.open('BW.html')
+}

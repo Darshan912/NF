@@ -17,6 +17,30 @@
 //       console.log("hi")
 //    }) 
 
+var timeDiff = document.getElementById("subm");
+timeDiff.addEventListener("click", function () {
+
+      const starttime = document.getElementById("appt").value;
+      let convertedTime = starttime.split(':').join('.');
+      //let timeNumber = parseFloat(convertedTime);
+      console.log(convertedTime); 
+      const endtime = document.getElementById("ap").value;
+      let convTime = endtime.split(':').join('.');
+      //let timeNumber1 = parseFloat(convTime);
+      console.log(convTime); 
+      const res = convTime-convertedTime;
+      //const res1 = res*60;
+      for(var i=0;i<=res;i++){
+
+      }
+      
+      console.log(res);
+      var deci = (Math.round(res* 100) / 100).toFixed(2);  
+      console.log("deci" + deci)
+      let output = document.getElementById('output');
+      output.innerHTML = deci;
+}) 
+
 var Diff = document.getElementById("submit");
 Diff.addEventListener("click", function () {
     console.log("hi");
@@ -33,25 +57,7 @@ Diff.addEventListener("click", function () {
 
 })
 
-var timeDiff = document.getElementById("subm");
-timeDiff.addEventListener("click", function () {
 
-      const starttime = document.getElementById("appt").value;
-      let convertedTime = starttime.split(':').join('.');
-      //let timeNumber = parseFloat(convertedTime);
-      console.log(convertedTime); 
-      const endtime = document.getElementById("ap").value;
-      let convTime = endtime.split(':').join('.');
-      //let timeNumber1 = parseFloat(convTime);
-      console.log(convTime); 
-      const res = convTime-convertedTime;
-      console.log(res);
-      var deci = (Math.round(res * 100) / 100).toFixed(2);
-      let output = document.getElementById('output');
-      output.innerHTML = deci;
-
-
-}) 
 
 
 
