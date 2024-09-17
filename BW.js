@@ -12,7 +12,7 @@ Submit.addEventListener("click", function () {
     console.log(tw);
     console.log(unit);
 
-    let add = +tw + 9;
+    let add = +tw+9;
     let mul = add * unit;
     let cal = mul / 1000;
     res.innerHTML = cal;
